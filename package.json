@@ -1,0 +1,38 @@
+{
+  "name": "objects-properties-only",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarranjones/object-properties-only.git"
+  },
+  "keywords": [
+    "remove",
+    "delete",
+    "clean",
+    "prop",
+    "properties",
+    "prototype",
+    "methods",
+    "object"
+  ],
+  "author": "Tarran Jones <tarrandavidjones@gmail.com> (http://tarranjones.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarranjones/object-properties-only/issues"
+  },
+  "homepage": "https://github.com/tarranjones/object-properties-only#readme",
+  "devDependencies": {
+    "ava": "^0.17.0"
+  },
+  "dependencies": {
+    "is-array": "^1.0.1",
+    "is-fn": "^1.0.0",
+    "is-obj": "^1.0.1",
+    "is-plain-obj": "^1.1.0"
+  }
+}
