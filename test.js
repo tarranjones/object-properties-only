@@ -27,7 +27,6 @@ Object.defineProperty(obj, 'accessorDescriptor1', {
     }
 })
 
-// console.dir(obj)
 
 //// obj after
 var objAfter = Object.create(null)
@@ -46,7 +45,6 @@ objAfter.dataDescriptor1 = 'dataDescriptor1'
 objAfter.accessorDescriptor1 = 'accessorDescriptor1'
 
 
-// console.log(objAfter)
 
 console.log(require('util').inspect(obj, {depth:null}))
 console.log(require('util').inspect(objAfter, {depth:null}))
